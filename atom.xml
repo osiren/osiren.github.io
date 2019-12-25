@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://osier.moe/"/>
-  <updated>2019-12-25T03:02:42.000Z</updated>
+  <updated>2019-12-25T06:36:59.751Z</updated>
   <id>http://osier.moe/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>文章加密测试</title>
+    <link href="http://osier.moe/2019/12/25/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%B5%8B%E8%AF%95/"/>
+    <id>http://osier.moe/2019/12/25/%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%B5%8B%E8%AF%95/</id>
+    <published>2019-12-25T06:28:27.000Z</published>
+    <updated>2019-12-25T06:36:59.751Z</updated>
+    
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">密码：osier</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="3328eea61a5f92046219baebd37c0012420e6abf75d5d66815faf2d953f8264d">7dce711423486ab45d0678c1b3280c0eecb6c9404b6e8d7a81c668719441059f987ec7f86f5c40dbfbd9d886b39670f64b550ad1609e3a60ff2bddc1b188a537e81267da5dcb4389ba9b21f9c56f87dcfb18719242c1b4565a3a9620f0154a5073bd4fd75092b287a71b84ca8047f116beaf53a4f8e5505edd3949f4ab9f71c81919dfae4735e64aae684e3f59b3f278600f603b2428d4a45ee081e8dae73ea3bf9c0293a7754726b3677388ad443412a4abae217688a563a2ba860ddfdf469204772624602e7efd4d028fc5d2ca3b583b2d192043dc46893ffeda94ad6bbe7a5b07e9c22d7f6fcfce3cea7415f23c88b0e85afbaa4869819a1c18235c75a7a68af32e71dec8953a8335e1030f33778dde8bec51e337eefa5651aa3ec74104cd15a24fdcb21b22a179eb7326a2618c5aef4995a61971564e9805113dfb3e1fe05dcf8a130bb9da488cd86f1516dc6f710e2c6fc4ab7501501ae2ae635853f5aa62a3080a1cc935a1d9e67a2836d77a4ee2999f5b243ac867309b090ad99d6f1e52f6a8802a1771f12858b9f566031011d71493450c3e3302389b7c0ae62dc3bea13b06e44abb111d3f40dfe8d90545151191eb7f063e68ca881cfd767e835fbd5726f59491a0855c9a2011e94fb669bf6e9e5eafbeec88cd5d15401f356ba792876c59e356803eeec17534477fde6337ce03ee08e661916b09936d858aea9641</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      文章加密测试
+    
+    </summary>
+    
+    
+    
+      <category term="加密" scheme="http://osier.moe/tags/%E5%8A%A0%E5%AF%86/"/>
+    
+      <category term="测试" scheme="http://osier.moe/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="test" scheme="http://osier.moe/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
     <title>test</title>
     <link href="http://osier.moe/2019/12/25/test/"/>
     <id>http://osier.moe/2019/12/25/test/</id>
     <published>2019-12-25T03:02:42.000Z</published>
-    <updated>2019-12-25T03:02:42.000Z</updated>
+    <updated>2019-12-25T03:13:42.235Z</updated>
     
     <content type="html"><![CDATA[<p>这是一篇测试文章，测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试。test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test 。</p>]]></content>
     
@@ -49,7 +74,7 @@
     <link href="http://osier.moe/2019/12/24/hello-world/"/>
     <id>http://osier.moe/2019/12/24/hello-world/</id>
     <published>2019-12-24T08:10:31.415Z</published>
-    <updated>2019-12-24T08:10:31.415Z</updated>
+    <updated>2019-12-25T02:38:21.879Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
