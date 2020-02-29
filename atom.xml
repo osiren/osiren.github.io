@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://osier.moe/"/>
-  <updated>2019-12-26T08:54:59.000Z</updated>
+  <updated>2020-01-03T07:29:33.000Z</updated>
   <id>http://osier.moe/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>告别过去</title>
+    <link href="http://osier.moe/2020/01/03/goodbye-2019/"/>
+    <id>http://osier.moe/2020/01/03/goodbye-2019/</id>
+    <published>2020-01-03T07:29:33.000Z</published>
+    <updated>2020-01-03T07:29:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="与-2019-别过"><a href="#与-2019-别过" class="headerlink" title="与 2019 别过"></a>与 2019 别过</h2><p>2019又是浑浑噩噩的一年，一无所得的一年，一事无成的一年。</p><a id="more"></a><h2 id="迎接-2020"><a href="#迎接-2020" class="headerlink" title="迎接 2020"></a>迎接 2020</h2><p>还未做好准备。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;与-2019-别过&quot;&gt;&lt;a href=&quot;#与-2019-别过&quot; class=&quot;headerlink&quot; title=&quot;与 2019 别过&quot;&gt;&lt;/a&gt;与 2019 别过&lt;/h2&gt;&lt;p&gt;2019又是浑浑噩噩的一年，一无所得的一年，一事无成的一年。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="胡言乱语" scheme="http://osier.moe/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
+    
+    
+      <category term="胡言" scheme="http://osier.moe/tags/%E8%83%A1%E8%A8%80/"/>
+    
+      <category term="乱语" scheme="http://osier.moe/tags/%E4%B9%B1%E8%AF%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo 文章加密</title>
