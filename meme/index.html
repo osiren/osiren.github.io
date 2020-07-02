@@ -15,7 +15,7 @@
     <meta name="google" content="index,follow" />
     <meta name="googlebot" content="index,follow" />
     <meta name="verify" content="index,follow" />
-    <meta name="apple-mobile-web-app-title" content="胡言乱语">
+    <meta name="apple-mobile-web-app-title" content="胡言乱语" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 </head>
@@ -56,6 +56,7 @@
     
     html {
         font-size: 20px;
+        color: #303030;
     }
     
     pre {
@@ -105,7 +106,7 @@
         border-radius: 5px;
         box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
         margin-top: 20px;
-        border-top: 6px solid;
+        border-top: 6px solid #C1655B;
         text-align: justify;
     }
     
@@ -115,6 +116,7 @@
     }
     
     time {
+        font-size: 16px
         font-weight: 200;
         color: #bbb;
     }
@@ -147,15 +149,15 @@
 </style>
 <body>
     <header id="header">
-        <h1>b言b语</h1>
+        <h1 style="font-size: 1.5em;">胡言乱语</h1>
     </header>
     <main id="app">
         <aside>
             <p id="describe">
-                可以在这里简单介绍你自己
+                暂无介绍
             </p>
         </aside>
-        <p class="tip">现在总共 b 了 {{count}} 条</p>
+        <p class="tip">现在总共吐了 {{count}} 条</p>
         <section class="item" v-for="item in contents" v-cloak>
             <p v-html='item.attributes.content'></p>
             <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
@@ -178,7 +180,6 @@
     AV.init({
         appId: "mIC5ACGxIAv5Cbm4H0VH3Q9N-MdYXbMMI", //你的 leancloud 应用 id （设置-应用keys-AppID）
         appKey: "7HtnqFqIapLRsks9MIn8cxnc", //你的 leancloud 应用 AppKey （设置-应用keys-AppKey）
-        serverURLs:    //国际版可删除该行，否则必须在后台绑定域名并填写在此
     });
 
     var query = new AV.Query('content');
@@ -209,7 +210,7 @@
     function getData(page = 0) {
         query.descending('createdAt').skip(page * 20).limit(20).find().then(function(results) {
             if (results.length == 0) {
-                alert('之前没 b 过了')
+                alert('之前没说过胡话了')
             } else {
                 let resC = results;
                 reqData = false;
