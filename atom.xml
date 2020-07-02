@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://osier.moe/"/>
-  <updated>2020-06-28T11:56:48.000Z</updated>
+  <updated>2020-06-30T14:52:19.000Z</updated>
   <id>http://osier.moe/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PC 通过外置网卡分享网络热点</title>
+    <link href="http://osier.moe/2020/06/30/Wifi-share/"/>
+    <id>http://osier.moe/2020/06/30/Wifi-share/</id>
+    <published>2020-06-30T14:52:19.000Z</published>
+    <updated>2020-06-30T14:52:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>办公室所在楼层，仅设置一个路由器，我的办公室手机连接无线网，网速较差，于是想用电脑分享热点。</p><a id="more"></a>  <h2 id="一、以管理员模式运行-cmd"><a class="header-anchor" href="#一、以管理员模式运行-cmd"></a>一、以管理员模式运行 cmd</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">netsh wlan show drivers  #检查无线网卡是否已插上  </span><br><span class="line">netsh wlan set hostednetwork mode&#x3D;allow ssid&#x3D;WIFI热点名 key&#x3D;WIFI热点密码              #设置WiFi热点名称以及密码</span><br><span class="line">netsh wlan start hostednetwork    #开启热点</span><br></pre></td></tr></table></figure><h2 id="二、设置-Internet-连接共享"><a class="header-anchor" href="#二、设置-Internet-连接共享"></a>二、设置 Internet 连接共享</h2><p>打开“控制面板”的“网络和共享中心”窗口，单击已连接到Internet的网络连接，选择“属性”→“共享”，勾上“允许其他······连接(N)”并选择“本地连接*9”(这个名字在你执行上述命令后会出现在网络连接面板中)。</p><h2 id="三、注意"><a class="header-anchor" href="#三、注意"></a>三、注意</h2><p>注意：这些操作，重启后就会失效，不过如果想要重启后再打开的话，在 cmd 中输入 <code>netsh wlan start hostednetwork</code> 即可。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;办公室所在楼层，仅设置一个路由器，我的办公室手机连接无线网，网速较差，于是想用电脑分享热点。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="note" scheme="http://osier.moe/categories/note/"/>
+    
+    
+      <category term="note" scheme="http://osier.moe/tags/note/"/>
+    
+      <category term="WiFi" scheme="http://osier.moe/tags/WiFi/"/>
+    
+  </entry>
   
   <entry>
     <title>PT 笔记 #1</title>
