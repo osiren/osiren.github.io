@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://osier.moe/"/>
-  <updated>2020-06-30T14:52:19.000Z</updated>
+  <updated>2020-07-26T16:09:09.000Z</updated>
   <id>http://osier.moe/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客图床设置</title>
+    <link href="http://osier.moe/2020/07/27/image-hosting-service/"/>
+    <id>http://osier.moe/2020/07/27/image-hosting-service/</id>
+    <published>2020-07-26T16:09:09.000Z</published>
+    <updated>2020-07-26T16:09:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a class="header-anchor" href="#前言"></a>前言</h2><p>在此之前，本博客图床为 <code>sm.ms</code> ，昨天在配置小狼毫时无意发现一篇博文：<a href="https://wzblog.fun/posts/b036879a" target="_blank" rel="noopener">Img Share: OneDrive 图床？</a>，于是自己也想折腾一下更换图床为 Onedrive，反正订阅了 Microsft 365，Onedrive 容量足够 ，不用白不用。</p><a id="more"></a><h2 id="Why-OneDrive-Why-Picture-Share"><a class="header-anchor" href="#Why-OneDrive-Why-Picture-Share"></a>Why OneDrive? Why Picture Share?</h2><p>Picture Share 是<a href="https://blog.richasy.cn/" target="_blank" rel="noopener">云之幻</a>开发的一款OneDrive图床工具，可在 <a href="https://www.microsoft.com/store/productId/9PHWZ3QL0HN3" target="_blank" rel="noopener">Microsoft Store</a> 安装。他开发的 <a href="https://www.microsoft.com/store/productId/9N85PV1RJD6V" target="_blank" rel="noopener">RSS Stalker</a> 我也在使用，是挺不错的 UWP 应用。前段时间他开发了一款 Bilibili 第三方客户端 <code>哔哩</code> ，因版权原因现已下架。可惜下架后我才知道，看了他 B 站的<a href="https://www.bilibili.com/video/av795398456" target="_blank" rel="noopener">视频</a>，更是后悔没能体验一番。扯远了…</p><ul><li>OneDrive 作为 Windows 系统集成的云服务，安全性与私密性都有保障。</li><li>相比于第三方提供的图床服务，OneDrive 既不怕盗链，，生成的分享链接永久有效。</li><li>订阅 Micosoft 365，不用担心容量、费用等问题。</li></ul><p><img src="https://storage.live.com/items/51CE6EDD8A2515D6!118464?authkey=AGSwFLuAhbAg2ak" alt="图床测试" title="图床测试"></p><p>有空再写</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;在此之前，本博客图床为 &lt;code&gt;sm.ms&lt;/code&gt; ，昨天在配置小狼毫时无意发现一篇博文：&lt;a href=&quot;https://wzblog.fun/posts/b036879a&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Img Share: OneDrive 图床？&lt;/a&gt;，于是自己也想折腾一下更换图床为 Onedrive，反正订阅了 Microsft 365，Onedrive 容量足够 ，不用白不用。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="瞎折腾l" scheme="http://osier.moe/categories/%E7%9E%8E%E6%8A%98%E8%85%BEl/"/>
+    
+    
+      <category term="Picture Share" scheme="http://osier.moe/tags/Picture-Share/"/>
+    
+      <category term="Onedrive" scheme="http://osier.moe/tags/Onedrive/"/>
+    
+  </entry>
   
   <entry>
     <title>PC 通过外置网卡分享网络热点</title>

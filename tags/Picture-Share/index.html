@@ -13,8 +13,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-<meta name="description" content="PC 通过外置网卡分享网络热点"/><meta name="keywords" content="note, WiFi, Osier" /><link rel="alternate" href="/atom.xml" title="Osier"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
-<link rel="canonical" href="http://osier.moe/2020/06/30/Wifi-share/"/>
+<link rel="alternate" href="/atom.xml" title="Osier"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
+<link rel="canonical" href="http://osier.moe/tags/Picture-Share/"/>
 
 <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=2.11.0" />
@@ -37,7 +37,8 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":"","latex":false};
 </script>
 
-    <title>PC 通过外置网卡分享网络热点 - Osier</title>
+    <title>Picture Share · Osier
+  </title>
   <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Osier" type="application/atom+xml">
 </head>
 
@@ -113,72 +114,20 @@
 
       <main id="main" class="main">
         <div class="content-wrapper">
-          <div id="content" class="content"><article class="post">
-    <header class="post-header">
-      <h1 class="post-title">PC 通过外置网卡分享网络热点
-        </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2020-06-30
-        </span><span class="post-category">
-            <a href="/categories/note/">note</a>
-            </span>
+          <div id="content" class="content"><section id="archive" class="archive"><div class="archive-title tag">
+          <h2 class="archive-name">Picture Share</h2>
         </div>
-    </header>
-
-    <div class="post-toc" id="post-toc">
-    <h2 class="post-toc-title">文章目录</h2>
-    <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、以管理员模式运行-cmd"><span class="toc-text">一、以管理员模式运行 cmd</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、设置-Internet-连接共享"><span class="toc-text">二、设置 Internet 连接共享</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、注意"><span class="toc-text">三、注意</span></a></li></ol>
-    </div>
-  </div><div class="post-content"><p>办公室所在楼层，仅设置一个路由器，我的办公室手机连接无线网，网速较差，于是想用电脑分享热点。</p>
-<a id="more"></a>  
-<h2 id="一、以管理员模式运行-cmd"><a class="header-anchor" href="#一、以管理员模式运行-cmd"></a>一、以管理员模式运行 cmd</h2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">netsh wlan show drivers  #检查无线网卡是否已插上  </span><br><span class="line">netsh wlan set hostednetwork mode&#x3D;allow ssid&#x3D;WIFI热点名 key&#x3D;WIFI热点密码              #设置WiFi热点名称以及密码</span><br><span class="line">netsh wlan start hostednetwork    #开启热点</span><br></pre></td></tr></table></figure>
-<h2 id="二、设置-Internet-连接共享"><a class="header-anchor" href="#二、设置-Internet-连接共享"></a>二、设置 Internet 连接共享</h2>
-<p>打开“控制面板”的“网络和共享中心”窗口，单击已连接到Internet的网络连接，选择“属性”→“共享”，勾上“允许其他······连接(N)”并选择“本地连接*9”(这个名字在你执行上述命令后会出现在网络连接面板中)。</p>
-<h2 id="三、注意"><a class="header-anchor" href="#三、注意"></a>三、注意</h2>
-<p>注意：这些操作，重启后就会失效，不过如果想要重启后再打开的话，在 cmd 中输入 <code>netsh wlan start hostednetwork</code> 即可。</p>
-
+      <div class="archive-post">
+        <span class="archive-post-time">
+          2020-07-27
+          </span>
+        <span class="archive-post-title">
+          <a href="/2020/07/27/image-hosting-service/" class="archive-post-link">
+            博客图床设置
+          </a>
+        </span>
       </div>
-      <div class="post-copyright">
-    <p class="copyright-item">
-      <span>原文作者: </span>
-      <a href="http://osier.moe">Osier Wong</a>
-    </p>
-    <p class="copyright-item">
-      <span>原文链接: </span>
-      <a href="http://osier.moe/2020/06/30/Wifi-share/">http://osier.moe/2020/06/30/Wifi-share/</a>
-    </p>
-    <p class="copyright-item">
-      <span>许可协议: </span><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
-    </p>
-  </div>
-      <footer class="post-footer">
-        <div class="post-tags">
-            <a href="/tags/note/">note</a>
-            <a href="/tags/WiFi/">WiFi</a>
-            </div>
-        
-        <nav class="post-nav"><a class="prev" href="/2020/07/27/image-hosting-service/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text nav-default">博客图床设置</span>
-        <span class="prev-text nav-mobile">上一篇</span>
-      </a>
-    <a class="next" href="/2020/06/28/PT-1/">
-        <span class="next-text nav-default">PT 笔记 #1</span>
-        <span class="prev-text nav-mobile">下一篇</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    </nav></footer>
-    </article></div><div class="comments" id="comments"><div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
-        </noscript>
-      </div>
-    </div></div>
+    </section><nav class="pagination"></nav></div></div>
       </main>
 
       <footer id="footer" class="footer"><div class="social-links"><a href="https://weibo.com/osiren" target="_blank" rel="noopener" class="iconfont icon-weibo" title="weibo"></a>
@@ -207,9 +156,9 @@
       </div>
     </div><script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://osier.moe/2020/06/30/Wifi-share/';
-        this.page.identifier = '2020/06/30/Wifi-share/';
-        this.page.title = 'PC 通过外置网卡分享网络热点';
+        this.page.url = '';
+        this.page.identifier = 'tags/Picture-Share/index.html';
+        this.page.title = '';
     };
     (function() {
     var d = document, s = d.createElement('script');

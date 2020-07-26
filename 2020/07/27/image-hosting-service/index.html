@@ -13,8 +13,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-<meta name="description" content="PC 通过外置网卡分享网络热点"/><meta name="keywords" content="note, WiFi, Osier" /><link rel="alternate" href="/atom.xml" title="Osier"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
-<link rel="canonical" href="http://osier.moe/2020/06/30/Wifi-share/"/>
+<meta name="description" content="博客图床设置"/><meta name="keywords" content="Picture Share, Onedrive, Osier" /><link rel="alternate" href="/atom.xml" title="Osier"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
+<link rel="canonical" href="http://osier.moe/2020/07/27/image-hosting-service/"/>
 
 <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
 <link rel="stylesheet" type="text/css" href="/css/style.css?v=2.11.0" />
@@ -37,7 +37,7 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":"","latex":false};
 </script>
 
-    <title>PC 通过外置网卡分享网络热点 - Osier</title>
+    <title>博客图床设置 - Osier</title>
   <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Osier" type="application/atom+xml">
 </head>
 
@@ -115,14 +115,14 @@
         <div class="content-wrapper">
           <div id="content" class="content"><article class="post">
     <header class="post-header">
-      <h1 class="post-title">PC 通过外置网卡分享网络热点
+      <h1 class="post-title">博客图床设置
         </h1>
 
       <div class="post-meta">
         <span class="post-time">
-          2020-06-30
+          2020-07-27
         </span><span class="post-category">
-            <a href="/categories/note/">note</a>
+            <a href="/categories/%E7%9E%8E%E6%8A%98%E8%85%BEl/">瞎折腾l</a>
             </span>
         </div>
     </header>
@@ -130,16 +130,20 @@
     <div class="post-toc" id="post-toc">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、以管理员模式运行-cmd"><span class="toc-text">一、以管理员模式运行 cmd</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、设置-Internet-连接共享"><span class="toc-text">二、设置 Internet 连接共享</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、注意"><span class="toc-text">三、注意</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Why-OneDrive-Why-Picture-Share"><span class="toc-text">Why OneDrive? Why Picture Share?</span></a></li></ol>
     </div>
-  </div><div class="post-content"><p>办公室所在楼层，仅设置一个路由器，我的办公室手机连接无线网，网速较差，于是想用电脑分享热点。</p>
-<a id="more"></a>  
-<h2 id="一、以管理员模式运行-cmd"><a class="header-anchor" href="#一、以管理员模式运行-cmd"></a>一、以管理员模式运行 cmd</h2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">netsh wlan show drivers  #检查无线网卡是否已插上  </span><br><span class="line">netsh wlan set hostednetwork mode&#x3D;allow ssid&#x3D;WIFI热点名 key&#x3D;WIFI热点密码              #设置WiFi热点名称以及密码</span><br><span class="line">netsh wlan start hostednetwork    #开启热点</span><br></pre></td></tr></table></figure>
-<h2 id="二、设置-Internet-连接共享"><a class="header-anchor" href="#二、设置-Internet-连接共享"></a>二、设置 Internet 连接共享</h2>
-<p>打开“控制面板”的“网络和共享中心”窗口，单击已连接到Internet的网络连接，选择“属性”→“共享”，勾上“允许其他······连接(N)”并选择“本地连接*9”(这个名字在你执行上述命令后会出现在网络连接面板中)。</p>
-<h2 id="三、注意"><a class="header-anchor" href="#三、注意"></a>三、注意</h2>
-<p>注意：这些操作，重启后就会失效，不过如果想要重启后再打开的话，在 cmd 中输入 <code>netsh wlan start hostednetwork</code> 即可。</p>
+  </div><div class="post-content"><h2 id="前言"><a class="header-anchor" href="#前言"></a>前言</h2>
+<p>在此之前，本博客图床为 <code>sm.ms</code> ，昨天在配置小狼毫时无意发现一篇博文：<a href="https://wzblog.fun/posts/b036879a" target="_blank" rel="noopener">Img Share: OneDrive 图床？</a>，于是自己也想折腾一下更换图床为 Onedrive，反正订阅了 Microsft 365，Onedrive 容量足够 ，不用白不用。</p>
+<a id="more"></a>
+<h2 id="Why-OneDrive-Why-Picture-Share"><a class="header-anchor" href="#Why-OneDrive-Why-Picture-Share"></a>Why OneDrive? Why Picture Share?</h2>
+<p>Picture Share 是<a href="https://blog.richasy.cn/" target="_blank" rel="noopener">云之幻</a>开发的一款OneDrive图床工具，可在 <a href="https://www.microsoft.com/store/productId/9PHWZ3QL0HN3" target="_blank" rel="noopener">Microsoft Store</a> 安装。他开发的 <a href="https://www.microsoft.com/store/productId/9N85PV1RJD6V" target="_blank" rel="noopener">RSS Stalker</a> 我也在使用，是挺不错的 UWP 应用。前段时间他开发了一款 Bilibili 第三方客户端 <code>哔哩</code> ，因版权原因现已下架。可惜下架后我才知道，看了他 B 站的<a href="https://www.bilibili.com/video/av795398456" target="_blank" rel="noopener">视频</a>，更是后悔没能体验一番。扯远了…</p>
+<ul>
+<li>OneDrive 作为 Windows 系统集成的云服务，安全性与私密性都有保障。</li>
+<li>相比于第三方提供的图床服务，OneDrive 既不怕盗链，，生成的分享链接永久有效。</li>
+<li>订阅 Micosoft 365，不用担心容量、费用等问题。</li>
+</ul>
+<p><img src="https://storage.live.com/items/51CE6EDD8A2515D6!118464?authkey=AGSwFLuAhbAg2ak" alt="图床测试" title="图床测试"></p>
+<p>有空再写</p>
 
       </div>
       <div class="post-copyright">
@@ -149,7 +153,7 @@
     </p>
     <p class="copyright-item">
       <span>原文链接: </span>
-      <a href="http://osier.moe/2020/06/30/Wifi-share/">http://osier.moe/2020/06/30/Wifi-share/</a>
+      <a href="http://osier.moe/2020/07/27/image-hosting-service/">http://osier.moe/2020/07/27/image-hosting-service/</a>
     </p>
     <p class="copyright-item">
       <span>许可协议: </span><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
@@ -157,17 +161,12 @@
   </div>
       <footer class="post-footer">
         <div class="post-tags">
-            <a href="/tags/note/">note</a>
-            <a href="/tags/WiFi/">WiFi</a>
+            <a href="/tags/Picture-Share/">Picture Share</a>
+            <a href="/tags/Onedrive/">Onedrive</a>
             </div>
         
-        <nav class="post-nav"><a class="prev" href="/2020/07/27/image-hosting-service/">
-        <i class="iconfont icon-left"></i>
-        <span class="prev-text nav-default">博客图床设置</span>
-        <span class="prev-text nav-mobile">上一篇</span>
-      </a>
-    <a class="next" href="/2020/06/28/PT-1/">
-        <span class="next-text nav-default">PT 笔记 #1</span>
+        <nav class="post-nav"><a class="next" href="/2020/06/30/Wifi-share/">
+        <span class="next-text nav-default">PC 通过外置网卡分享网络热点</span>
         <span class="prev-text nav-mobile">下一篇</span>
         <i class="iconfont icon-right"></i>
       </a>
@@ -207,9 +206,9 @@
       </div>
     </div><script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://osier.moe/2020/06/30/Wifi-share/';
-        this.page.identifier = '2020/06/30/Wifi-share/';
-        this.page.title = 'PC 通过外置网卡分享网络热点';
+        this.page.url = 'http://osier.moe/2020/07/27/image-hosting-service/';
+        this.page.identifier = '2020/07/27/image-hosting-service/';
+        this.page.title = '博客图床设置';
     };
     (function() {
     var d = document, s = d.createElement('script');
