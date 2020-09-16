@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
-<meta name="description" content="Pixel 系统更新"/><meta name="keywords" content="Android, Pixel, Osier" /><link rel="alternate" href="/atom.xml" title="Osier"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
+<meta name="description" content="Pixel 系统更新"/><meta name="keywords" content="Android, Pixel, Osier" /><link rel="alternate" href="/atom.xml" title="Osier" type="application/atom+xml"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0" />
 <link rel="canonical" href="http://osier.moe/2020/06/02/pixel-system-update/"/>
 
 <link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
@@ -38,8 +38,7 @@
 </script>
 
     <title>Pixel 系统更新 - Osier</title>
-  <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="Osier" type="application/atom+xml">
-</head>
+  <meta name="generator" content="Hexo 5.1.1"></head>
 
   <body><div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
@@ -130,7 +129,7 @@
     <div class="post-toc" id="post-toc">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、卸载-ROOT"><span class="toc-text">一、卸载 ROOT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、下载工厂镜像"><span class="toc-text">二、下载工厂镜像</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、更新系统"><span class="toc-text">三、更新系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、刷入-Magisk"><span class="toc-text">四、刷入 Magisk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#五、结束"><span class="toc-text">五、结束</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%8D%B8%E8%BD%BD-ROOT"><span class="toc-text">一、卸载 ROOT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%8E%82%E9%95%9C%E5%83%8F"><span class="toc-text">二、下载工厂镜像</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F"><span class="toc-text">三、更新系统</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%88%B7%E5%85%A5-Magisk"><span class="toc-text">四、刷入 Magisk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%BB%93%E6%9D%9F"><span class="toc-text">五、结束</span></a></li></ol>
     </div>
   </div><div class="post-content"><p>本人的 Pixel 4 在刷入 Magisk 后，迟迟未收到5月更新，于是在网上查阅教程，线刷原厂镜像完成更新。写篇 Blog 记录一下。</p>
 <a id="more"></a>
@@ -139,7 +138,7 @@
 <p>首先在<font color=#C1655B> <code>Magisk Manger</code></font> 中卸载 <font color=#C1655B> <code>Magisk</code></font>，选择<font color=#C1655B> 完全卸载</font> ，避免出现意外情况。</p>
 <p>此步骤可跳过。</p>
 <h2 id="二、下载工厂镜像"><a class="header-anchor" href="#二、下载工厂镜像"></a>二、下载工厂镜像</h2>
-<p>在 <a href="https://developers.google.com/android/images" target="_blank" rel="noopener">Factory Images for Nexus and Pixel Devices</a> 下载设备的最新工厂镜像。选择下载 Factory Images，而不是下载 Full OTA Images。以 Pixel 4 的5 月更新为例。</p>
+<p>在 <a target="_blank" rel="noopener" href="https://developers.google.com/android/images">Factory Images for Nexus and Pixel Devices</a> 下载设备的最新工厂镜像。选择下载 Factory Images，而不是下载 Full OTA Images。以 Pixel 4 的5 月更新为例。</p>
 <h2 id="三、更新系统"><a class="header-anchor" href="#三、更新系统"></a>三、更新系统</h2>
 <p>解压 <font color= #C1655B><code>flame-qq2a.200501.001.b2-factory-6b360ec6.zip</code></font></p>
 <ol>
@@ -174,7 +173,7 @@
 <p><img src="https://i.loli.net/2020/05/30/jo91xTu7HyUAkhN.png" alt="boot.img"></p>
 </li>
 <li>
-<p>安装 <a href="https://forum.xda-developers.com/apps/magisk/dev-magisk-canary-channel-bleeding-edge-t3839337%5D" target="_blank" rel="noopener">Canary 版 Magisk</a></p>
+<p>安装 <a target="_blank" rel="noopener" href="https://forum.xda-developers.com/apps/magisk/dev-magisk-canary-channel-bleeding-edge-t3839337%5D">Canary 版 Magisk</a></p>
 </li>
 <li>
 <p>打开 <font color= #C1655B><code>Magisk Manager</code></font>，选择安装 <font color= #C1655B><code>Magisk</code></font></p>
@@ -235,23 +234,23 @@
     </article></div><div class="comments" id="comments"><div id="disqus_thread">
         <noscript>
           Please enable JavaScript to view the
-          <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+          <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
         </noscript>
       </div>
     </div></div>
       </main>
 
-      <footer id="footer" class="footer"><div class="social-links"><a href="https://weibo.com/osiren" target="_blank" rel="noopener" class="iconfont icon-weibo" title="weibo"></a>
-        <a href="https://www.instagram.com/osier_wong" target="_blank" rel="noopener" class="iconfont icon-instagram" title="instagram"></a>
+      <footer id="footer" class="footer"><div class="social-links"><a target="_blank" rel="noopener" href="https://weibo.com/osiren" class="iconfont icon-weibo" title="weibo"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/osier_wong" class="iconfont icon-instagram" title="instagram"></a>
         <a href="/atom.xml" class="iconfont icon-rss" title="rss"></a>
     </div><div class="copyright">
   <span class="power-by">
-    由 <a class="hexo-link" href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 强力驱动
+    由 <a class="hexo-link" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> 强力驱动
   </span>
   <span class="division">|</span>
   <span class="theme-info">
     主题 - 
-    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even" target="_blank" rel="noopener">Even</a>
+    <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/ahonn/hexo-theme-even">Even</a>
   </span>
 
   <span class="copyright-year">&copy;2019 - 2020<span class="heart">
