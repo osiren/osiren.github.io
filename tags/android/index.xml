@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on osier&#39;s blog</title>
+    <link>https://blog.osier.moe/tags/android/</link>
+    <description>Recent content in Android on osier&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 02 Jun 2020 20:15:16 +0000</lastBuildDate><atom:link href="https://blog.osier.moe/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixel 系统更新</title>
+      <link>https://blog.osier.moe/post/pixel-%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Tue, 02 Jun 2020 20:15:16 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/pixel-%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</guid>
+      <description>&lt;p&gt;本人的 Pixel 4 在刷入 Magisk 后，迟迟未收到5月更新，于是在网上查阅教程，线刷原厂镜像完成更新。写篇 Blog 记录一下。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

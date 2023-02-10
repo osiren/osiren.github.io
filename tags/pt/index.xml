@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PT on osier&#39;s blog</title>
+    <link>https://blog.osier.moe/tags/pt/</link>
+    <description>Recent content in PT on osier&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 28 Jun 2020 19:56:48 +0000</lastBuildDate><atom:link href="https://blog.osier.moe/tags/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PT 笔记 #1</title>
+      <link>https://blog.osier.moe/post/pt-1/</link>
+      <pubDate>Sun, 28 Jun 2020 19:56:48 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/pt-1/</guid>
+      <description>&lt;p&gt;趁着这几天端午节有几个 PT 站开放注册，本人抓住机会注册了账号，尝试入门玩儿一下 PT 下载。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

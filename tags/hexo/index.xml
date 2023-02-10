@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hexo on osier&#39;s blog</title>
+    <link>https://blog.osier.moe/tags/hexo/</link>
+    <description>Recent content in Hexo on osier&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 26 Dec 2019 16:54:59 +0000</lastBuildDate><atom:link href="https://blog.osier.moe/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo 文章加密</title>
+      <link>https://blog.osier.moe/post/hexo-%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</link>
+      <pubDate>Thu, 26 Dec 2019 16:54:59 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/hexo-%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</guid>
+      <description>插件安装 需要安装 hexo-blog-encrypt 插件，命令如下： 1 $ npm install --save hexo-blog-encrypt 开启加密插件 1 2 3 # Security encrypt: # hexo-blog-encrypt enable: true 给文章加密 1 2 3 4 5 6 7 --- title: Hexo文章加密访问 date: 2019-08-31 password: such a poor dog</description>
+    </item>
+    
+  </channel>
+</rss>

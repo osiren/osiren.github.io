@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onedrive on osier&#39;s blog</title>
+    <link>https://blog.osier.moe/tags/onedrive/</link>
+    <description>Recent content in Onedrive on osier&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 27 Jul 2020 00:09:09 +0000</lastBuildDate><atom:link href="https://blog.osier.moe/tags/onedrive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客图床设置</title>
+      <link>https://blog.osier.moe/post/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Mon, 27 Jul 2020 00:09:09 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;在此之前，本博客图床为 &lt;code&gt;sm.ms&lt;/code&gt; ，昨天在配置小狼毫时无意发现一篇博文：&lt;a href=&#34;https://wzblog.fun/posts/b036879a&#34;&gt;Img Share: OneDrive 图床？&lt;/a&gt;，于是自己也想折腾一下更换图床为 Onedrive，反正订阅了 Microsft 365，Onedrive 容量足够 ，不用白不用。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

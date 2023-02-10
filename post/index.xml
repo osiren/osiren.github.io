@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on osier&#39;s blog</title>
+    <link>https://blog.osier.moe/post/</link>
+    <description>Recent content in Posts on osier&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 10 Feb 2023 16:52:47 +0800</lastBuildDate><atom:link href="https://blog.osier.moe/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://blog.osier.moe/post/test/</link>
+      <pubDate>Fri, 10 Feb 2023 16:52:47 +0800</pubDate>
+      
+      <guid>https://blog.osier.moe/post/test/</guid>
+      <description>&lt;p&gt;此处内容将会出现在摘要（summary）里&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2020</title>
+      <link>https://blog.osier.moe/post/2020/</link>
+      <pubDate>Thu, 31 Dec 2020 23:57:48 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/2020/</guid>
+      <description>&lt;p&gt;待更新&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>博客图床设置</title>
+      <link>https://blog.osier.moe/post/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Mon, 27 Jul 2020 00:09:09 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E5%BA%8A%E8%AE%BE%E7%BD%AE/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;在此之前，本博客图床为 &lt;code&gt;sm.ms&lt;/code&gt; ，昨天在配置小狼毫时无意发现一篇博文：&lt;a href=&#34;https://wzblog.fun/posts/b036879a&#34;&gt;Img Share: OneDrive 图床？&lt;/a&gt;，于是自己也想折腾一下更换图床为 Onedrive，反正订阅了 Microsft 365，Onedrive 容量足够 ，不用白不用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PC 通过外置网卡分享网络热点</title>
+      <link>https://blog.osier.moe/post/pc-%E9%80%9A%E8%BF%87%E5%A4%96%E7%BD%AE%E7%BD%91%E5%8D%A1%E5%88%86%E4%BA%AB%E7%BD%91%E7%BB%9C%E7%83%AD%E7%82%B9/</link>
+      <pubDate>Tue, 30 Jun 2020 22:52:19 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/pc-%E9%80%9A%E8%BF%87%E5%A4%96%E7%BD%AE%E7%BD%91%E5%8D%A1%E5%88%86%E4%BA%AB%E7%BD%91%E7%BB%9C%E7%83%AD%E7%82%B9/</guid>
+      <description>&lt;p&gt;办公室所在楼层，仅设置一个路由器，我的办公室手机连接无线网，网速较差，于是想用电脑分享热点。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PT 笔记 #1</title>
+      <link>https://blog.osier.moe/post/pt-1/</link>
+      <pubDate>Sun, 28 Jun 2020 19:56:48 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/pt-1/</guid>
+      <description>&lt;p&gt;趁着这几天端午节有几个 PT 站开放注册，本人抓住机会注册了账号，尝试入门玩儿一下 PT 下载。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pixel 系统更新</title>
+      <link>https://blog.osier.moe/post/pixel-%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Tue, 02 Jun 2020 20:15:16 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/pixel-%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</guid>
+      <description>&lt;p&gt;本人的 Pixel 4 在刷入 Magisk 后，迟迟未收到5月更新，于是在网上查阅教程，线刷原厂镜像完成更新。写篇 Blog 记录一下。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>告别过去</title>
+      <link>https://blog.osier.moe/post/goodbye-2019/</link>
+      <pubDate>Fri, 03 Jan 2020 15:29:33 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/goodbye-2019/</guid>
+      <description>&lt;h2 id=&#34;与-2019-别过&#34;&gt;与 2019 别过&lt;/h2&gt;
+&lt;p&gt;2019又是浑浑噩噩的一年，一无所得的一年，一事无成的一年。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hexo 文章加密</title>
+      <link>https://blog.osier.moe/post/hexo-%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</link>
+      <pubDate>Thu, 26 Dec 2019 16:54:59 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/hexo-%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86/</guid>
+      <description>插件安装 需要安装 hexo-blog-encrypt 插件，命令如下： 1 $ npm install --save hexo-blog-encrypt 开启加密插件 1 2 3 # Security encrypt: # hexo-blog-encrypt enable: true 给文章加密 1 2 3 4 5 6 7 --- title: Hexo文章加密访问 date: 2019-08-31 password: such a poor dog</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.osier.moe/post/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.osier.moe/post/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
