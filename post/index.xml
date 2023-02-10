@@ -6,7 +6,16 @@
     <description>Recent content in Posts on osier&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Feb 2023 16:52:47 +0800</lastBuildDate><atom:link href="https://blog.osier.moe/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Feb 2023 20:23:51 +0800</lastBuildDate><atom:link href="https://blog.osier.moe/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Again</title>
+      <link>https://blog.osier.moe/post/test_again/</link>
+      <pubDate>Fri, 10 Feb 2023 20:23:51 +0800</pubDate>
+      
+      <guid>https://blog.osier.moe/post/test_again/</guid>
+      <description>&lt;p&gt;此处内容将会出现在摘要（summary）里&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Test</title>
       <link>https://blog.osier.moe/post/test/</link>
