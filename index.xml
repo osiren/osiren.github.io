@@ -6,7 +6,7 @@
     <description>Recent content on osier&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Feb 2023 20:23:51 +0800</lastBuildDate><atom:link href="https://blog.osier.moe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 15:38:11 +0800</lastBuildDate><atom:link href="https://blog.osier.moe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于</title>
       <link>https://blog.osier.moe/about/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://blog.osier.moe/about/</guid>
       <description>待更新</description>
+    </item>
+    
+    <item>
+      <title>患甲流记录</title>
+      <link>https://blog.osier.moe/post/influenza-a-virus/</link>
+      <pubDate>Mon, 06 Mar 2023 15:38:11 +0800</pubDate>
+      
+      <guid>https://blog.osier.moe/post/influenza-a-virus/</guid>
+      <description>&lt;p&gt;本人不幸于2023年3月3日出现甲流症状，3月5日起已有所好转。水篇文章记录一下。&lt;/p&gt;</description>
     </item>
     
     <item>
